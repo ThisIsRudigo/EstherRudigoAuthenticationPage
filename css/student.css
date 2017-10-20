@@ -1,0 +1,59 @@
+body{
+	background : black;      /*url(../img/learning.jpg);*/
+	 background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: 
+}
+.container{
+	height:450px;
+	width:500px;
+	background-color: white;
+	margin-top: 130px;
+	padding: 30px;
+
+}
+
+.container .form-group-lg{
+	padding-top: 15px;
+}
+ .container .btn{
+  	
+  	width:100%;
+  	font-size: 15px;
+  	margin-top: 20px;
+  	height:50px;
+  	background: black !important;
+  	font-size: 20px;
+}
+.container img{
+	width: 300px;
+	height: 100px;
+   margin-left: 55px;
+	
+	
+}
+
+
+
+
+@media(max-width: 800px){
+
+	.container{
+		width: 300px;
+		height: 470px;
+
+       
+	
+	}
+	.container img{
+	
+   margin-left:-10px;
+	
+	
+}
+.container .col-md-push-2{
+	margin-left: -12px;
+}
+
+  }
+
